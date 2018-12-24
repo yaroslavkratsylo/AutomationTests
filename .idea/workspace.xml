@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0cd9757-e2f7-46e9-b5c6-33c290023f6d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webTests/MortgagePaymentTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tools/browserSetUp/ChromeDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webTests/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>io.qameta.allure</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/Tools/browserSetUp/browserSetUp/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/browserSetUp/DriverManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/browserSetUp/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/browserSetUp/DriverType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/browserSetUp/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tools/general/GlobalMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/PageObjects/MortgagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/Pages/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/Pages/MortgagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebTests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/MortgagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebTests/MortgagePaymentTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tools/general/GlobalMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/Pages/MortgagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webTests/MortgagePaymentTests.java" />
+        <option value="$PROJECT_DIR$/SuiteFile" />
+        <option value="$PROJECT_DIR$/src/test/java/tools/browserSetUp/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webTests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1357" />
+    <option name="y" value="1" />
+    <option name="width" value="1936" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="browserSetUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545670442035" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="PageObjects.Pages" />
+      <recent name="PageObjects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ykratsylo\Desktop\AutomationTests\src\test\java\PageObjects\Pages\Pages" />
+      <recent name="C:\Users\ykratsylo\Desktop\AutomationTests\src\test\java" />
+      <recent name="C:\Users\ykratsylo\Desktop\AutomationTests\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.MortgagePaymentTests">
+    <configuration name="MortgagePaymentTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTests" />
+      <option name="MAIN_CLASS_NAME" value="webTests.MortgagePaymentTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MortgagePaymentTests.checkPurchasePriceSlider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTests" />
+      <option name="MAIN_CLASS_NAME" value="webTests.MortgagePaymentTests" />
+      <option name="METHOD_NAME" value="checkPurchasePriceSlider" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MortgagePaymentTests" />
+        <item itemvalue="TestNG.MortgagePaymentTests.checkPurchasePriceSlider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0cd9757-e2f7-46e9-b5c6-33c290023f6d" name="Default Changelist" comment="" />
+      <created>1545644868649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545644868649</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 15h 23m 52s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 15h 55m 02s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 16h 19m 17s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 16h 20m 01s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 17h 38m 06s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 17h 39m 02s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests_checkPurchasePriceSlider - 2018.12.24 at 18h 14m 59s.xml">
+      <configuration name="MortgagePaymentTests.checkPurchasePriceSlider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests_checkPurchasePriceSlider - 2018.12.24 at 18h 18m 18s.xml">
+      <configuration name="MortgagePaymentTests.checkPurchasePriceSlider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests_checkPurchasePriceSlider - 2018.12.24 at 18h 21m 42s.xml">
+      <configuration name="MortgagePaymentTests.checkPurchasePriceSlider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MortgagePaymentTests - 2018.12.24 at 18h 35m 06s.xml">
+      <configuration name="MortgagePaymentTests" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tools/ChromeDriverManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tools/browserSetUp/DriverManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tools/browserSetUp/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tools/browserSetUp/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/Pages/MortgagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationTests.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TestSuite.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/failed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/emailable-report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/fa95ad6f-bd52-42d3-a154-2ba000ccc997-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tools/general/GlobalMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteFile" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pageObjects/Pages/HomePage.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webTests/MortgagePaymentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tools/browserSetUp/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webTests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
