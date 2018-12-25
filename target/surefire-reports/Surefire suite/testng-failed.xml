@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="setDriver"/>
+          <include name="beforeMethod"/>
           <include name="checkPurchasePriceSlider"/>
           <include name="checkWeeklyPaymentsValue"/>
         </methods>

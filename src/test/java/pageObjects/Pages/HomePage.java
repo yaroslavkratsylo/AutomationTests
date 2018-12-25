@@ -31,10 +31,10 @@ public class HomePage {
 
     @Step("Navigate on Mortgage Payment page")
     public MortgagePage navigateToMortagePaymentPage() {
-        globalMethods.clickTheElement(loansLink);
-        globalMethods.clickTheElement(mortgagesLink);
-        globalMethods.clickTheElement(mortgagePaymentLink);
-        globalMethods.clickTheElement(selectPurchasePriceRadioButton);
+        globalMethods.clickAnElement(loansLink);
+        globalMethods.clickAnElement(mortgagesLink);
+        globalMethods.clickAnElement(mortgagePaymentLink);
+        globalMethods.clickAnElement(selectPurchasePriceRadioButton);
         return new MortgagePage(driver);
     }
 }

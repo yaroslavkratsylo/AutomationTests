@@ -31,13 +31,13 @@ public class GlobalMethods {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public void clickTheElement(WebElement element) {
+    public void clickAnElement(WebElement element) {
         waitForElementVisible(element, 1000);
         element.click();
     }
 
     public void moveSlider(WebElement priceSliderLocator, int value) {
-        clickTheElement(priceSliderLocator);
+        clickAnElement(priceSliderLocator);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].setAttribute('style', 'left: " + value + "%')", priceSliderLocator);
         priceSliderLocator.click();

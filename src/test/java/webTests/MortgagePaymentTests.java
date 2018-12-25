@@ -1,19 +1,24 @@
 package webTests;
 
+import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import pageObjects.Pages.HomePage;
 import pageObjects.Pages.MortgagePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+@Feature("Verify Mortgage Payment Value")
+@Story("Mortgage Payment")
 public class MortgagePaymentTests extends BaseTest {
     MortgagePage mortgagePage;
     HomePage homePage;
 
+
     @Step("Navigate on Mortgage Payment page and move the Purchase slider to right")
     @Test(enabled = true, description = "Scenario to check if there is possibility to move Purchase slider")
     public void checkPurchasePriceSlider() {
-        homePage = openLoginPage();
+        homePage = openHomePage();
         mortgagePage = homePage.navigateToMortagePaymentPage();
         mortgagePage.movePriceSliderToRight();
 

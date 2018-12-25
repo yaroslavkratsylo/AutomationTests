@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 3.624 s <<< FAILURE! - in TestSuite
-setDriver(webTests.MortgagePaymentTests)  Time elapsed: 2.578 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 3.084 s <<< FAILURE! - in TestSuite
+beforeMethod(webTests.MortgagePaymentTests)  Time elapsed: 2.653 s  <<< FAILURE!
 java.lang.NullPointerException
 

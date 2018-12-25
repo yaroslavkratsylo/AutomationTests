@@ -2,22 +2,22 @@
 <testng-results skipped="2" failed="0" ignored="1" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="595" started-at="2018-12-24T16:48:01Z" finished-at="2018-12-24T16:48:02Z">
+  <suite name="Surefire suite" duration-ms="535" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="595" started-at="2018-12-24T16:48:01Z" finished-at="2018-12-24T16:48:02Z">
+    <test name="Surefire test" duration-ms="535" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
       <class name="webTests.BaseTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webTests.BaseTest@35beb15e]" name="beforeTest" is-config="true" duration-ms="66" started-at="2018-12-24T16:48:01Z" finished-at="2018-12-24T16:48:01Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webTests.BaseTest@41a90fa8]" name="beforeTest" is-config="true" duration-ms="71" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
       </class> <!-- webTests.BaseTest -->
       <class name="webTests.MortgagePaymentTests">
-        <test-method status="FAIL" signature="setDriver()[pri:0, instance:webTests.MortgagePaymentTests@41fe9859]" name="setDriver" is-config="true" duration-ms="0" started-at="2018-12-24T16:48:01Z" finished-at="2018-12-24T16:48:01Z">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:webTests.MortgagePaymentTests@3d8bbcdc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at webTests.BaseTest.setDriver(BaseTest.java:27)
+at webTests.BaseTest.beforeMethod(BaseTest.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -26,9 +26,11 @@ at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelpe
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
 at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
 at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -54,12 +56,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="SKIP" signature="checkPurchasePriceSlider()[pri:0, instance:webTests.MortgagePaymentTests@41fe9859]" name="checkPurchasePriceSlider" duration-ms="0" started-at="2018-12-24T16:48:01Z" description="Scenario to check if there is possibility to move Purchase slider" finished-at="2018-12-24T16:48:01Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="checkPurchasePriceSlider()[pri:0, instance:webTests.MortgagePaymentTests@3d8bbcdc]" name="checkPurchasePriceSlider" duration-ms="0" started-at="2018-12-25T09:52:26Z" description="Scenario to check if there is possibility to move Purchase slider" finished-at="2018-12-25T09:52:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at webTests.BaseTest.setDriver(BaseTest.java:27)
+at webTests.BaseTest.beforeMethod(BaseTest.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,9 +70,11 @@ at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelpe
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
 at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
 at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -97,11 +101,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPurchasePriceSlider -->
-        <test-method status="SKIP" signature="checkWeeklyPaymentsValue()[pri:0, instance:webTests.MortgagePaymentTests@41fe9859]" name="checkWeeklyPaymentsValue" duration-ms="0" started-at="2018-12-24T16:48:02Z" description="Scenario to check if the correct Weekly Payment value is pulled" finished-at="2018-12-24T16:48:02Z">
+        <test-method status="SKIP" signature="checkWeeklyPaymentsValue()[pri:0, instance:webTests.MortgagePaymentTests@3d8bbcdc]" name="checkWeeklyPaymentsValue" duration-ms="0" started-at="2018-12-25T09:52:26Z" description="Scenario to check if the correct Weekly Payment value is pulled" finished-at="2018-12-25T09:52:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at webTests.BaseTest.setDriver(BaseTest.java:27)
+at webTests.BaseTest.beforeMethod(BaseTest.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,9 +114,11 @@ at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelpe
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
 at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
 at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -139,7 +145,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWeeklyPaymentsValue -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:webTests.MortgagePaymentTests@41fe9859]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-24T16:48:02Z" finished-at="2018-12-24T16:48:02Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:webTests.MortgagePaymentTests@3d8bbcdc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:webTests.MortgagePaymentTests@3d8bbcdc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-25T09:52:26Z" finished-at="2018-12-25T09:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

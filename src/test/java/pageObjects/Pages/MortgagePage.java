@@ -1,5 +1,6 @@
 package pageObjects.Pages;
 
+import io.qameta.allure.Step;
 import tools.general.GlobalMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -57,23 +58,28 @@ public class MortgagePage {
         return priceSliderLocator;
     }
 
+    @Step("Move Purchase Price slider")
     public MortgagePage movePriceSliderToRight() {
        globalMethods.moveSlider(priceSliderLocator,100);
        return this;
     }
 
+    @Step("Check if the Purchase Price is changing together with Purchase Price slider")
     public boolean isPurchasePriceMove(String purchaseValue) {
         return (getPriceSlider().getAttribute("style").contains(purchaseValue));
     }
 
+    @Step("Check if the Weekly Payment value contains proper value")
     public boolean isWeeklyPaymentEqauls(String weeklyValue) {
         return (globalMethods.getTextValue(getWeeklyPaymentValue()).equals(weeklyValue));
     }
 
+    @Step("Get the Weekly Payment value")
     public WebElement getWeeklyPaymentValue() {
         return weeklyPaymentValue;
     }
 
+    @Step("Change the price on a slider using plus button")
     public MortgagePage changePriceUsingPlusButton(String inputPrice, WebElement sliderPrice, WebElement plusButton) {
         for (int i = 0; i < 20; i++) {
             if (inputPrice.equals(sliderPrice.getAttribute("value"))) {
@@ -88,6 +94,7 @@ public class MortgagePage {
         return new MortgagePage(driver);
     }
 
+    @Step("Populate all required values for Mortgage Payment Calculator")
     public MortgagePage populateValuesForMortgagePaymentCalculator(String inputPurchasePrice, String inputDownPayment, String authorizationValue,
                                                                    String paymentFrequencyValue, String interestValue) {
         changePriceUsingPlusButton(inputPurchasePrice, sliderPriceValue, purchasePricePlusButton);
@@ -97,7 +104,7 @@ public class MortgagePage {
         paymentFrequencyDropdown.click();
         globalMethods.selectValueFromDropdownByLiTag(paymentFrequencyDropDownField, paymentFrequencyValue);
         globalMethods.clearAndPopulateInputField(interestRateField, interestValue);
-        globalMethods.clickTheElement(calculateButton);
+        globalMethods.clickAnElement(calculateButton);
         return new MortgagePage(driver);
     }
 }
