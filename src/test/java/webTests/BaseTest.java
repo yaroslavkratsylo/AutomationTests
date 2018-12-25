@@ -34,7 +34,6 @@ public class BaseTest extends ChromeDriverManager {
         return new HomePage(driver);
     }
 
-    @Step ("Quite the driver and close the browser after each test class execution")
     @AfterClass
     public void afterClass() {
         driverManager.quitDriver();
