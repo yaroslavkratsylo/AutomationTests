@@ -16,13 +16,11 @@ public class BaseTest extends ChromeDriverManager {
     DriverManager driverManager;
     public WebDriver driver;
 
-    @Step("The annotated method will be run before each test")
     @BeforeTest
     public void beforeTest() {
         driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
     }
 
-    @Step("The annotated method will be run before each test class")
     @BeforeClass
     public void beforeClass() {
         driver=driverManager.getDriver();
@@ -38,7 +36,7 @@ public class BaseTest extends ChromeDriverManager {
 
     @Step ("Quite the driver and close the browser after each test class execution")
     @AfterClass
-    public void afterMethod() {
+    public void afterClass() {
         driverManager.quitDriver();
     }
 }

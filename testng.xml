@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Inetview Tests" verbose="1" parallel="tests"
+	thread-count="1" group-by-instances="true">
+	<test name="Automation Interview Tests">
+		<classes>
+			<class name="webTests.MortgagePaymentTests"></class>
+		</classes>
+	</test>
+</suite>
